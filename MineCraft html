@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<header style="font-size:70px;">Minecraft Game Store<header>
+<article style="font-size:45px;">This website if were you can click the link to go and dowload the game for $25 but also you can use this website for server ip address`s
+and or minecraft play names</article>
+<head>
+</head>
+<body>
+
+<h1 style="color:blue;">Games</h1>
+
+<p style="font-size:80px">Buy The Game! For $25</p>
+
+<a href="https://www.minecraft.net/en-us/">Minecraft.net store click here</a>
+<h2 style="color:pink;">SERVERS</h2>
+<p1 style="font-size:40px;">Mineheroes.net Us.skykingdoms.net play.popularmmosworld.com cosmicprisons.net</p1>
+<h3>Click Below To Go To My Youtube Channel</h3>
+<a href="https://www.youtube.com/channel/UCawLPQes7wdewWA-E7UFrJA?view_as=subscriber">My Youtube Channel</a>
+
+<style>
+body {background-color: #C9FFE5;}
+
+</style>
+</body>
+
+</html>
