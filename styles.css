@@ -1,22 +1,25 @@
 * {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
+
 fieldset {
-    border-radius: 55px;
+    border-radius: 10px; /* Reduce border radius for a smoother look */
     border: 0.1em solid black;
-    padding: 35px;
+    padding: 20px; /* Decrease padding for better spacing */
     margin: 1%;
-    width: 150px 250px;
-    height: 50px 100px;
+    width: 90%; /* Adjust width to fit the screen width */
+    max-width: 400px; /* Set a maximum width to prevent stretching on large screens */
+    margin: 0 auto; /* Center the fieldset horizontally */
 }
+
 body {
     border: 3px solid black;
-    padding: 10%;
+    padding: 5%; /* Decrease overall padding */
     background-color: rgba(124, 190, 157, 0.658);
 }
+
 form {
-    padding-bottom: 2em;
-    padding-left: 15em;
-    padding-right: 15em; 
+    padding: 0; /* Remove padding to make the form full width */
 }
