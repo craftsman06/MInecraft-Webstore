@@ -1,4 +1,9 @@
 function sendMail() {
+    let selectedDays = [];
+    document.querySelectorAll('input[name="days"]:checked').forEach(function(checkbox) {
+        selectedDays.push(checkbox.value);
+    });
+
     let parms = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
@@ -6,7 +11,7 @@ function sendMail() {
         address: document.getElementById("address").value,
         apt: document.getElementById("apt").value,
         phone: document.getElementById("phone").value,
-        days: document.querySelector('input[name="days"]:checked') ? document.querySelector('input[name="days"]:checked').value : '',
+        days: selectedDays.join(', '), // Convert array to comma-separated string
     };
 
     emailjs.send("service_lahr6qk", "template_y7sdoeu", parms)
