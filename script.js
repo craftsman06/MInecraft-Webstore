@@ -11,8 +11,7 @@ function sendMail() {
         address: document.getElementById("address").value,
         apt: document.getElementById("apt").value,
         phone: document.getElementById("phone").value,
-        sunday: document.getElementById("sunday").value,
-        wednesday: document.getElementById("wednesday").value,
+        days: selectedDays.join(', '), // Convert array to comma-separated string
     };
 
     emailjs.send("service_lahr6qk", "template_y7sdoeu", parms)
